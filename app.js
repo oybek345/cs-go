@@ -3,7 +3,7 @@ const buttons = document.querySelectorAll("#wwww");
 
 buttons.forEach(button => {
   button.addEventListener("click", () => {
-    audio.play();
+    audio.play1();
   });
 });
 
@@ -13,6 +13,6 @@ const button = document.querySelectorAll("#www");
 
 button.forEach(button => {
   button.addEventListener("click", () => {
-    audi.play();
+    audi.play2();
   });
 });
